@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.texto1 {
+    font-size: 29px;
+    margin-bottom: -20px;
+    margin-left: 5%;
+}
+
+.texto2 {
+    color: #01845f;
+    font-size: 80px;
+    margin-bottom: 20%;
+    margin-left: 5%;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 0.2em;
+}
+
+.letras2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 4.5%;
+    position: absolute;
+    margin-top: 10%;
+}
+          
+.texto3 {
+    color: grey;
+    font-size: 80px;
+    margin-left: 5%;
+    margin-top: 20%;
+    line-height: 1
+}
+            
+.texto4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 4.5%;
+    margin-top: 38%;
+    position: absolute;
+}
+
+.seccionnum1 {
+    background-color: #F5EEF5;
+}
+        
+.contenedor {
+    display: flex;
+    justify-content:left;
+    margin-right: 10%
+}
+        
+.img {
+    width: 500px;
+    margin-bottom: 10%;
+    margin-top: 14%;
+    border-radius: 10px;
+}      
+
+.imgs {
+    width: 550px;
+    margin-bottom: 10%;
+    margin-top: 12%;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.seccionnum2 {
+    background-color: #FAF5F3;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content:left;
+}
+       
+.txt3 {
+    color: grey;
+    font-size: 80px;
+    margin-right: 5%;
+    margin-left: 19%;
+    margin-top: 20%;
+    line-height: 1
+}
+.txt4 {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            font-size: 22px;
+    margin-left: 55%;
+    margin-top: 39%;
+    position: absolute;
+}
+
+.ltrs2 {
+    font-family: "Roboto", sans-serif;        
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 55%;
+    position: absolute;
+    margin-top: 10%;      
+}
+
+.letras3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 4.5%;
+    position: absolute;
+    margin-top: 10%;
+}
+              
+.texto5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 4.5%;
+    margin-top: 40%;
+    position: absolute;
+}
+
+.seccionnum3 {
+    background-color:#f2f9f8;
+}
+
+.letras4 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 29px;
+    margin-left: 4.5%;
+    margin-top: 15%;
+    color: white;
+}
+                  
+.texto6 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 22px;
+    margin-left: 4.5%;
+    margin-top: 600px;
+                    
+}
+                    
+.seccionnum4{
+    background-color: black;
+    }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+                    
+.box1 {
+background-color: black;
+color: white;
+padding: 20px;
+font-size: 20px;
+
+}
+.box2 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+
+}
+.idea {
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    .apar1 {
+        flex-direction: column;
+        }
+    .encabezado, .seccionnum1, .seccionnum2, .seccionnum3, .seccionnum4 {
+    width: 100%;
+    font-size: 24px;
+    padding: 20px;
+    }    
+}
